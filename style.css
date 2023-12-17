@@ -24,7 +24,7 @@ a {
 .header, 
 .hero {
   background-color: #1F2937;
-  padding: 0px 120px;
+  padding: 0px 100px;
   display: flex;
   flex: 1;
   justify-content: space-between;
@@ -32,7 +32,11 @@ a {
 }
 
 .header {
-  padding: 12px 120px;
+  padding: 12px 100px;
+}
+
+.first-image {
+  max-width: 512px;
 }
 
 .hero {
@@ -65,4 +69,53 @@ button {
   padding: 8px 32px;
   border-radius: 8px;
   border: none;
+}
+
+.info-header {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  color: #1F2937;
+  text-align: center;
+}
+
+.card-carousel {
+  height: 300px;
+  display: flex;
+  flex: 1;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  width: 150px;
+}
+
+.quote-text {
+  font-size: 32px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+  width: 700px;
+  margin: 16px;
+  margin-bottom: 0;
+}
+
+.quote-text + p {
+  font-weight: 700;
+  font-size: 24px;
+  width: 700px;
+  text-align: right;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 200px;
 }
